@@ -118,7 +118,7 @@ fn main() {
     // 속성 사용 예시 (특정 OS에서만 실행)
     #[cfg(target_os = "linux")]
     are_we_on_linux();
-
+    
     // 커스텀 타입 유도 사용 예시
     let my_struct = MyStruct { field: 100 };
     println!("Derive: {:?}", my_struct);
